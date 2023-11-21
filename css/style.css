@@ -1,0 +1,150 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.section_1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.big_pic_main_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big_pic_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.title{
+margin-bottom: 15px;
+}
+
+.black_div{
+    display: inline-block;
+    background-color: black;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fa-chevron-down{
+    color: rgb(87, 81, 81);
+}
+
+.side_black_div_container{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.side_black_div{
+    width: 1px;
+    height: auto;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.show_more{
+    text-decoration: underline dashed rgb(142, 17, 17);
+
+}
+
+.small_pic_main_div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+
+.small_pic_div {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.small_pic_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.section_2{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.featured{
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured_div_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.date{
+    color: #a81930;
+}
+
+.featured_text{
+    font-weight: bold;
+    color: rgb(55, 55, 55);
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.featured_location{
+    color: rgb(92, 88, 88);
+}
+
+.featured_side_div_container{
+    display: flex;
+}
+
+.side_brown_div{
+    width: 1px;
+    height: auto;
+    background-color: rgb(214, 207, 207);
+    margin-right: 10px;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.see_button{
+    background-color: white;
+    border: 1px solid rgb(92, 88, 88);
+    padding: 10px;
+
+}
+
+.fa-arrow-right-long{
+    color: #a81930;
+}
